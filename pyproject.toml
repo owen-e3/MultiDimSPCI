@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multidim_spci"
+version = "0.1.0"
+description = "Official implementation of Conformal prediction for multi-dimensional time series by ellipsoidal sets"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+  {name = "Chen Xu", email = "cxu310@gatech.edu"},
+  {name = "Hanyang Jiang"}, 
+  {name = "Yao Xie"},
+]
+maintainers = [
+  { name = "hamrel-cxu", email = "cxu310@gatech.edu" }
+]
+requires-python = ">=3.6"
+dependencies = [ "numpy", "scikit-learn", "scipy", "pandas", "matplotlib", "sklearn-quantile==0.0.21" ]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+[project.urls]
+Repository = "https://github.com/hamrel-cxu/MultiDimSPCI"
