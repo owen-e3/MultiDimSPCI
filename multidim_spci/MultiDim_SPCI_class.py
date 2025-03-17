@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import math
 import time as time
-from helpers import utils_SPCI as utils
+from multidim_spci import utils_SPCI as utils
 from sklearn.neighbors import NearestNeighbors
 import warnings
 from sklearn_quantile import RandomForestQuantileRegressor, SampleRandomForestQuantileRegressor
